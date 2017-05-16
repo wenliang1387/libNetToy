@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtoy_base.a  CMakeFiles/toy_base.dir/Buffer.cpp.o CMakeFiles/toy_base.dir/EventLoopThreadPool.cpp.o CMakeFiles/toy_base.dir/EventLoop.cpp.o CMakeFiles/toy_base.dir/Logger.cpp.o CMakeFiles/toy_base.dir/EventLoopThread.cpp.o CMakeFiles/toy_base.dir/TimerQueue.cpp.o
+/usr/bin/ranlib libtoy_base.a

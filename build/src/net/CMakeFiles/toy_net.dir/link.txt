@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtoy_net.a  CMakeFiles/toy_net.dir/Acceptor.cpp.o CMakeFiles/toy_net.dir/TcpClient.cpp.o CMakeFiles/toy_net.dir/TcpServer.cpp.o CMakeFiles/toy_net.dir/Connector.cpp.o CMakeFiles/toy_net.dir/TcpConnection.cpp.o
+/usr/bin/ranlib libtoy_net.a

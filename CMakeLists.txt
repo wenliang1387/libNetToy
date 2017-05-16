@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 2.6)
+project(libNetToy C CXX)
+
+set(CMAKE_CXX_COMPILER "g++")
+find_package(Boost REQUIRED)
+set(BOOST_ROOT ${Boost_INCLUDE_DIRS})
+include_directories(${Boost_INCLUDE_DIRS})
+
+include_directories(${PROJECT_SOURCE_DIR}/src)
+add_subdirectory(src/base)
+add_subdirectory(src/net)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+message("PROJECT_SOURCE_DIR:${PROJECT_SOURCE_DIR}")
+message("PROJECT_BINARY_DIR:${PROJECT_BINARY_DIR}")
+message("LIBRARY_OUTPUT_PATH:${LIBRARY_OUTPUT_PATH}")

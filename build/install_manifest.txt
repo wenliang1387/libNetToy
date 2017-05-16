@@ -1,0 +1,2 @@
+/usr/local/lib/libtoy_base.a
+/usr/local/lib/libtoy_net.a
